@@ -1,4 +1,4 @@
-[About](about) - [my youtube channel](https://www.youtube.com/channel/UCyHEQyAQpu-FHKb6cjR_uUw) - [blog](blog) - [MD Cheat Sheet](md)
+[About](about) - [blog](blog) - [MD Cheat Sheet](md)
 
 ---
 
@@ -9,6 +9,6 @@ It's super raw, Im testing how much can I get using only the most basic tools gi
 ### here is the future task list:
 
 - [x] Write the homepage
-- [ ] Write "about"
+- [x] Write "about"
 - [ ] Write the blog posts index
 - [ ] Write a blog post
