@@ -2,6 +2,7 @@
 layout: default
 ---
 <nav>
+  -
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #d22;"{% endif %}>
         {{ item.name }}
@@ -9,7 +10,7 @@ layout: default
     {% endfor %}
 </nav>
 
-<h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<h2>{{ page.title }}</h2>
+<p>{{ page.date | date_to_string }}</p>
 
 {{ content }}

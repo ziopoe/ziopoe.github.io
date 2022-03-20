@@ -3,11 +3,12 @@ layout: default
 title: Blog
 ---
 <nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #d22;"{% endif %}>
-      {{ item.name }}
-    </a> - 
-  {% endfor %}
+  -
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #d22;"{% endif %}>
+        {{ item.name }}
+      </a> - 
+    {% endfor %}
 </nav>
 
 <h1>Latest Posts</h1>
