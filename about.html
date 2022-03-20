@@ -1,0 +1,23 @@
+---
+layout: default
+title: About Me
+---
+<nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+</nav>
+
+<h2 id="something-about-me">Something about me</h2>
+
+<p>I started coding in year 2000, published my first website in 2004 and studied deeply html and css, after all of that I changed life and now I’m voluntarily stuck with this plain website.</p>
+
+<p>Today is 2022 - 03 - 19 and I’m leaving my home again for 4 to 5 months, I wanted to have some kind of blog to document my future but I’m running out of time.</p>
+
+<p>Here is a picture of me taken at nigh with my 2017 phone reflected in a giant chromed steel ball.</p>
+
+<p><img src="/img/me-inside-a-giant-grainy-ball.jpg" alt="Me inside a chrome ball" /></p>
+
+<p>Aesthetic above all</p>

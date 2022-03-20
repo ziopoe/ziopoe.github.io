@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+</nav>
+
+<h2 id="this-is-my-homepage">This is my homepage</h2>
+
+<p>It’s super raw, Im testing how much can I get using only the most basic tools github pages provides.</p>
+
+<h3 id="here-is-the-future-task-list">here is the future task list:</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Write the homepage</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Write “about”</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Write the blog posts index</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Write a blog post</li>
+</ul>
