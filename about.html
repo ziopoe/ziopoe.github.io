@@ -3,11 +3,11 @@ layout: default
 title: About Me
 ---
 <nav>
-    {% for item in site.data.navigation %}
-      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-        {{ item.name }}
-      </a>
-    {% endfor %}
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #d22;"{% endif %}>
+      {{ item.name }}
+    </a> - 
+  {% endfor %}
 </nav>
 
 <h2 id="something-about-me">Something about me</h2>
