@@ -2,7 +2,7 @@
 layout: post
 ---
 
-### we are at a good starting point
+### I'm getting to a good starting point
 
 I'm getting a grip on how Jekill works, there is no more time to make changes but I will study it in the coming months when time permits.
 
