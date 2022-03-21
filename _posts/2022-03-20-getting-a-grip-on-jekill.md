@@ -18,9 +18,9 @@ Now I also added a custom css but only to fix an issue with images being too lar
 }
 ```
 
-This still sure the original css beside this code, for now.
+This still the original css beside this code, for now.
 
-Here is a photo to test this upgrad:
+Here is a photo to test this upgrade:
 
 ![A local lake in the winter](/img/blade-lake.jpg)
 
