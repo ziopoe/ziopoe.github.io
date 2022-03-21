@@ -12,11 +12,12 @@ It's clearly not a presentable site but no one will see it anyway, it's all an e
 
 Now I also added a custom css but only to fix an issue with images being too large.
 
-`
+```
 .container-lg img {
     max-width: 100%;
 }
-`
+```
+
 This still sure the original css beside this code, for now.
 
 Here is a photo to test this upgrad:
