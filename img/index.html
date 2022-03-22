@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% for image in site.img %}
+{% for image in site.static_files %}
      {% if image.extname == 'jpg' %}
-         <p><img src="{{ file.url }}" alt="" /></p>
+         <p><img src="{{ file.path }}" alt="" /></p>
      {% endif %}
 {% endfor %}
